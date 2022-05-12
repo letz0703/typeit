@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/typeit/static/css/main.073c9b0a.css",
+    "main.js": "/typeit/static/js/main.25b632b1.js",
+    "static/js/787.3a0bd837.chunk.js": "/typeit/static/js/787.3a0bd837.chunk.js",
+    "static/media/logo.svg": "/typeit/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/typeit/index.html",
+    "main.073c9b0a.css.map": "/typeit/static/css/main.073c9b0a.css.map",
+    "main.25b632b1.js.map": "/typeit/static/js/main.25b632b1.js.map",
+    "787.3a0bd837.chunk.js.map": "/typeit/static/js/787.3a0bd837.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.25b632b1.js"
+  ]
+}
