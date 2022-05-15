@@ -1,10 +1,19 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+div {
+  font-size: 7rem;
+  /* font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif */
+  font-family: thahoma,courrier, monospace;
+  color: crimson;
+  padding-top: 2.5rem
 }
 
 @media (prefers-reduced-motion: no-preference) {
