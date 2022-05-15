@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/typeit@8.3.3/dist/index.umd.js"></script>
+  <title>Typeit</title>
+  <style>
+    :root {
+      --ti-cursor-margin-left: 1px;
+      --ti-cursor-color: dodgerblue;
+
+    }
+  </style>
+</head>
+<h1 id="title">Love and Free !!</h1>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    new TypeIt('#title',
+      // { strings:["this will be type", "and this too"]}
+    )
+      .pause(1000)
+      .delete(7, { delay: 1000 })
+      .delete(8, { delay: 1000 })
+      .delete(1, { delay: 1000 })
+      .type("!")
+      .pause(1000)
+      .type("ets")
+      .pause(2000)
+      .delete(1, { delay: 1000 })
+      .type("z")
+      .go()
+  })
+</script>
+
+<body>
+
+</body>
+
+</html>
